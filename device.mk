@@ -7,7 +7,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/xiaomi/dipper/dipper-vendor.mk)
+$(call inherit-product-if-exists, vendor/meizu/16th/16th-vendor.mk)
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2248
@@ -26,7 +26,7 @@ PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 # Inherit from sdm845-common
-$(call inherit-product, device/xiaomi/sdm845-common/sdm845.mk)
+$(call inherit-product, device/meizu/sdm845-common/sdm845.mk)
 
 # Audio
 PRODUCT_COPY_FILES += \

@@ -1,9 +1,9 @@
 Copyright (C) 2018 The LineageOS Project
 
-Device configuration for Xiaomi Mi 8
+Device configuration for Meizu 16th
 =========================================
 
-The Xiaomi Mi 8 (codenamed _"dipper"_) is a high-end smartphone from Xiaomi.
+The Meizu Mi 8 (codenamed _"16th"_) is a high-end smartphone from Meizu.
 
 It was announced in May 2018. Release date was June 2018.
 
@@ -23,4 +23,4 @@ Camera  | Dual 12 MP, 4-axis OIS, 2x optical zoom, dual PDAF, dual-LED (dual ton
 
 ## Device picture
 
-![Xiaomi Mi 8](https://xiaomi-mi.com/uploads/CatalogueImage/01_b_16982_1527780977.jpg "Xiaomi Mi 8 in black")
+![Meizu 16th](https://meizu-mi.com/uploads/CatalogueImage/01_b_16982_1527780977.jpg "Meizu 16th in black")
