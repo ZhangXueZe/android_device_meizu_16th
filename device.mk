@@ -21,6 +21,14 @@ DEVICE_PACKAGE_OVERLAYS += \
 # Properties
 -include $(LOCAL_PATH)/device-props.mk
 
+# Prebuilt kernel
+PRODUCT_COPY_FILES += \
+    vendor/meizu/16th/kernel/zImage:kernel
+
+# Prebuilt modules
+PRODUCT_COPY_FILES += \
+    vendor/meizu/16th/kernel/qca_cld3_wlan.ko:system/lib/modules/wlan.ko
+
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
