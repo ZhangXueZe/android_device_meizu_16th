@@ -8,10 +8,10 @@ $(call inherit-product, device/meizu/16th/device.mk)
 
 # Inherit some common Lineage stuff.
 
-$(call inherit-product, vendor/mk/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := mk_16th
+PRODUCT_NAME := lineage_16th
 PRODUCT_DEVICE := 16th
 PRODUCT_BRAND := Meizu
 PRODUCT_MODEL := 16th
