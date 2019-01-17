@@ -1,0 +1,2 @@
+add_lunch_combo lineage_16th-eng
+add_lunch_combo lineage_16th-userdebug
