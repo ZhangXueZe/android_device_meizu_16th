@@ -7,9 +7,9 @@
 
 set -e
 
-export DEVICE=dipper
+export DEVICE=16th
 export DEVICE_COMMON=sdm845-common
-export VENDOR=xiaomi
+export VENDOR=meizu
 
 export DEVICE_BRINGUP_YEAR=2018
 
